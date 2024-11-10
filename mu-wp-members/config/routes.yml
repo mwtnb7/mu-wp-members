@@ -1,0 +1,35 @@
+members_index:
+  path: /members/
+  controller: MuWpMembers\Controllers\Routes\MembersController::index
+
+members_login:
+  path: /members/login/
+  controller: MuWpMembers\Controllers\Routes\AuthController::login
+
+#members_register:
+#  path: /members/register/
+#  controller: MuWpMembers\Controllers\Routes\RegisterController::register
+
+members_logout:
+  path: /members/logout/
+  controller: MuWpMembers\Controllers\Routes\AuthController::logout
+
+#members_password_reissue:
+#  path: /members/password-reissue/
+#  controller: MuWpMembers\Controllers\Routes\PasswordReissueController::passwordReissue
+#
+#members_password_reset:
+#  path: /members/password-reset/
+#  controller: MuWpMembers\Controllers\Routes\PasswordResetController::passwordReset
+
+#members_profile:
+#  path: /members/profile/
+#  controller: MuWpMembers\Controllers\Routes\ProfileController::view
+
+members_committee_index:
+  path: /members/committee/{name}/
+  controller: MuWpMembers\Controllers\Routes\CommitteeController::index
+
+members_search:
+  path: /members/search/
+  controller: MuWpMembers\Controllers\Routes\SearchController::index

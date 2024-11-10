@@ -1,0 +1,65 @@
+
+/* Admin bar */
+#wp-admin-bar-gtranslate {
+    display: none;
+}
+
+/* Messages */
+.flash-message {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.success-message {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.error-message {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+/* Link */
+
+a.is-disabled {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none !important;
+    color: #ccc !important;
+}
+
+.u-right-text-link {
+    text-align: right;
+    margin-top: .5rem;
+}
+
+.u-right-text-link a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.u-right-text-link a:where([target=_blank])::after {
+    content: "open_in_new";
+    font-family: "Material Icons Round";
+    font-size: 16px;
+    margin-left: 2px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+/* Header */
+
+@media screen and (min-width: 59.3126em) {
+    .l-header__logo {
+        width: 13.5rem !important;
+    }
+}
