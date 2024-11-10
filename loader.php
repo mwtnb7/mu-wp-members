@@ -3,7 +3,7 @@
  * Plugin Name: mu-wp Members
  * Description: WordPress plugin for content restriction and member management
  * Version: 1.0.0
- * Author: Grow Group Co., Ltd
+ * Author: mwtnb7
  */
 
 define( 'MU_WP_MEMBERS_PATH', plugin_dir_path( __FILE__ ) . 'mu-wp-members/' );
